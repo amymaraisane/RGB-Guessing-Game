@@ -1,0 +1,82 @@
+html {
+    font-family: 'Oxygen', 'Montserrat', sans-serif;  
+    /* 2nd font family is added in this way as a backup in case doesnt work on all machines */
+    font-weight: 300;
+}    
+body {
+    background-color: #232323;
+    margin: 0;
+    /* fixed small white stripe problem on top and sides of header*/
+}
+
+#header {
+    color: white;
+    background-color: rgb(176, 66, 244);
+    line-height: 1.1;
+    display: flex;
+    /* setting the display to flex filled entire height of div w/ background color*/
+    justify-content: center;
+    /*refers to x axis start of div*/
+    text-align: center;
+    /* centers text within div to be perfectly centered*/
+}
+#displayTarget {
+    font-size: 3rem;
+}
+#stripe {
+    background-color: white;
+    color: rgb(176, 66, 244);
+    height: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* aligned items on y axis in center of span*/
+}
+#easy, #hard {
+    padding: 0 6px;
+}
+#message {
+    color: black;
+    width: 16rem; 
+    text-align: center;
+}
+.button{
+    text-transform: uppercase;
+    letter-spacing: 1.1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.button:hover {
+    background-color:rgb(176, 66, 244);
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.square {
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    -moz-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+}
+.container {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.selected {
+    background-color:rgb(176, 66, 244);
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
