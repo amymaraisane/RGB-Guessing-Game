@@ -38,8 +38,11 @@ body {
 }
 #message {
     color: black;
-    width: 16rem; 
+    width: 100px; 
     text-align: center;
+}
+#newColors {
+    width: 105px;
 }
 .button{
     text-transform: uppercase;
