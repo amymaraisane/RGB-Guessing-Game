@@ -9,7 +9,7 @@ body {
     /* fixed small white stripe problem on top and sides of header*/
 }
 h1 {
-    font-size: 25px;
+    font-size: 1.8rem;
 }
 #header {
     color: white;
