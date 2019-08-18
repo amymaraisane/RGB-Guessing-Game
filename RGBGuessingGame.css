@@ -75,7 +75,8 @@ h1 #displayTarget {
 }
 .container {
     max-width: 600px;
-    margin: 10px auto;
+    margin: 0 auto;
+    margin-top: 4rem;
 }
 
 .selected {
